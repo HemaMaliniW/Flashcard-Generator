@@ -1,18 +1,35 @@
-var require = ("./main.js")
-var BasicCard = function(front, back){
-	// body...
-	this.front = front;
-	this.back = back;
+function basicCard(front, back) {
+
+  // This code allows us to optionally create BasicCards without using the new keyword
+  if (!(this instanceof basicCard)) {
+    return new basicCard(front, back);
+  }
+
+  this.front = front;
+  this.back = back;
 }
-console.log("basic");
 
-// var FlashCard = function(question, answer){
+module.exports = basicCard;
 
-// 	this.question = question;
-// 	this.answer = answer;
 
-// } (I created this^^ to set up a question answer method- not sure if this was required and so I nixed it.)
-// console.log("QA");
+// //////////////////////////////////////////////////////
+// below code is mine and the one above is TV
+
+// var require = ("./main.js")
+// var BasicCard = function(front, back){
+// 	// body...
+// 	this.front = front;
+// 	this.back = back;
+// }
+// console.log("basic");
+
+// // var FlashCard = function(question, answer){
+
+// // 	this.question = question;
+// // 	this.answer = answer;
+
+// // } (I created this^^ to set up a question answer method- not sure if this was required and so I nixed it.)
+// // console.log("QA");
 
 // var askQuestion = function() {
 //   // the inquirer uses the prompt to ask questions that are set in an inquirer prompt. They are set as card in the front adn back position.
@@ -59,11 +76,12 @@ console.log("basic");
 //       // run the askquestion function again so as to either end the loop or ask the questions again
 //       askQuestion();
 //     });
-//     // else statement which prints "all questions asked" to the console
-//   }
-// //   else {
-// //     console.log("All questions asked");
+// //     // else statement which prints "all questions asked" to the console
 // //   }
-// // };
+// // //   else {
+// // //     console.log("All questions asked");
+// // //   }
+// // // };
+
 
 
