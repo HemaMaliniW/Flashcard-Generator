@@ -1,31 +1,31 @@
 [
 {
-"front": "Who makes the best food on food network?",
-"back": "Undoubtley it is Guarnascelli!"
+"question": "Who makes the best food on food network?",
+"answer": "Undoubtley it is Guarnascelli!"
 },
 
 {
-"front": "Who is an annoying anchor on Food Network?",
-"back": "Bobby Flay!"
+"question": "Who is an annoying anchor on Food Network?",
+"answer": "Bobby Flay!"
 }, 
 {
-"front": "Where is the place with the most fresh food in the US?",
-"back": "New York and not California!"
+"question": "Where is the place with the most fresh food in the US?",
+"answer": "New York and not California!"
 }, 
 {
-"front": "What is the name of the show where people party the most on Food Network?",
-"back": "The Kitchn!"
+"question": "What is the name of the show where people party the most on Food Network?",
+"answer": "The Kitchn!"
 },
 {
- "front": "Who was the first person to do a travel and cooking show on Food Network?",
- "back": "Rachel Ray back in 2004!"
+ "question": "Who was the first person to do a travel and cooking show on Food Network?",
+ "answer": "Rachel Ray back in 2004!"
    },
    {
-   "front": "Who is the most funny and empathy driven of the anchors on Food Network?",
-   "back": "Alton Brown!"
+   "question": "Who is the most funny and empathy driven of the anchors on Food Network?",
+   "answer": "Alton Brown!"
    },
     {
-    "front": "Who makes the best food on food network?",
-    "back": "Undoubtley it is Guarnascelli! Oops that's a repeat questions!"
+    "question": "Who makes the best food on food network?",
+    "answer": "Undoubtley it is Guarnascelli! Oops that's a repeat questions!"
    }
 ]

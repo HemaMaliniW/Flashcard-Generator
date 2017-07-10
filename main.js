@@ -1,4 +1,4 @@
-var cardData = require("./questions.JSON"); 
+var cardData = require("./questions.json"); 
 // console.log("The data is  brought into the pgm via the require statement,");
 // console.log("   and stored in the cardData variable, as an array of objects. ");
 // console.log("cardData=" + JSON.stringify(cardData));
