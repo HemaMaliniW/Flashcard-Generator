@@ -1,12 +1,12 @@
 {
   "name": "flashCard-Generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "flashCard-Generator",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Hema Waghray",
   "license": "ISC",
   "dependencies": {
     "inquirer": "^3.1.1"
